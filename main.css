@@ -4,6 +4,12 @@ body {
     font-family: "monospace";
 }
 
+.noselect {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
 h1 {
     left: 0;
     line-height: 200px;
